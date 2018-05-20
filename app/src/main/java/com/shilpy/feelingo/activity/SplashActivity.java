@@ -28,7 +28,7 @@ public class SplashActivity extends AppCompatActivity {
      * on end of animation Home activity will be opened
      */
     private void gotoNextScreen(){
-        ObjectAnimator fadeOut = ObjectAnimator.ofFloat(splash_layout, "alpha",  1f, 0.1f);
+        ObjectAnimator fadeOut = ObjectAnimator.ofFloat(splash_layout, "alpha",  1f, 0.5f);
         fadeOut.setDuration(1000);
         fadeOut.setStartDelay(1000);
         fadeOut.start();
